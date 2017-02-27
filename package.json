@@ -1,0 +1,19 @@
+{
+  "name": "helloworld-shared",
+  "version": "1.0.0",
+  "description": "shared code between web and mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-cramfighter/helloworld-shared.git"
+  },
+  "author": "jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-cramfighter/helloworld-shared/issues"
+  },
+  "homepage": "https://github.com/jason-cramfighter/helloworld-shared#readme"
+}
