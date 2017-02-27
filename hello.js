@@ -1,6 +1,13 @@
-var sayHello = function(){
-    console.log("woohoo, saying hello!");
+'use strict';
+
+exports.sayHello = function(){
+    console.log("saying hello!");
     return "howdy!";
 };
 
-module.exports = sayHello;
+exports.Goodbye = class Goodbye{
+    goodbye(){
+        console.log("goodbye!");
+        return "adios";    
+    }
+};
