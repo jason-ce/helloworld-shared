@@ -2,7 +2,7 @@
   "name": "helloworld-shared",
   "version": "1.0.0",
   "description": "shared code between web and mobile",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "npm test"
   },
