@@ -5,9 +5,10 @@ exports.sayHello = function(){
     return "howdy!";
 };
 
-// exports.Goodbye = class Goodbye{
-//     goodbye(){
-//         console.log("goodbye!");
-//         return "adios";    
-//     }
-// };
+exports.Goodbye = class Goodbye{
+    goodbye(){
+        console.log("goodbye!");
+        return "adios";    
+    }
+};
+

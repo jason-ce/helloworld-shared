@@ -1,9 +1,11 @@
+'use strict';
 var hello = require('./hello.js');
 
-hello.sayHello();
+exports.helloText = hello.sayHello();
+exports.goodbye = new hello.Goodbye();
 
-//var goodbye = new hello.Goodbye();
-//var result = goodbye.goodbye();
+
+
 //console.log(result);
 
 // x = [1, 2, 3, 4, 5];
