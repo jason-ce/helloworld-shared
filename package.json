@@ -1,6 +1,6 @@
 {
   "name": "helloworld-shared",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "shared code between web and mobile",
   "main": "app.js",
   "scripts": {
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jason-cramfighter/helloworld-shared#readme",
   "devDependencies": {
+    "request": "^2.79.0"
+  },
+  "dependencies": {
     "request": "^2.79.0"
   }
 }
