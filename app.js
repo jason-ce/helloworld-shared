@@ -2,13 +2,11 @@
 var utilities = require('./utilities.js');
 var api = require('./api.js');
 
-// exports.helloText = hello.sayHello();
-// exports.goodbye = new hello.Goodbye();
+exports.utilities = utilities;
+exports.api = api;
 
 // let google = new api.Google();
-// console.log(google.getBody());
-
-
+// google.getBody();
 
 //console.log(result);
 
