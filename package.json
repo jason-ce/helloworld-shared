@@ -1,6 +1,6 @@
 {
   "name": "helloworld-shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "shared code between web and mobile",
   "main": "app.js",
   "scripts": {
