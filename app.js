@@ -1,8 +1,12 @@
 'use strict';
-var hello = require('./hello.js');
+var utilities = require('./utilities.js');
+var api = require('./api.js');
 
-exports.helloText = hello.sayHello();
-exports.goodbye = new hello.Goodbye();
+// exports.helloText = hello.sayHello();
+// exports.goodbye = new hello.Goodbye();
+
+// let google = new api.Google();
+// console.log(google.getLogo());
 
 
 
