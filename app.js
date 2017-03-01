@@ -6,7 +6,7 @@ var api = require('./api.js');
 // exports.goodbye = new hello.Goodbye();
 
 // let google = new api.Google();
-// console.log(google.getLogo());
+// console.log(google.getBody());
 
 
 
