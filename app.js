@@ -5,8 +5,9 @@ var api = require('./api.js');
 exports.utilities = utilities;
 exports.api = api;
 
-// let google = new api.Google();
-// google.getBody();
+let google = new api.Google();
+let tmp = google.getBody();
+console.log(tmp);
 
 //console.log(result);
 
