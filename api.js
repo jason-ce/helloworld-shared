@@ -10,11 +10,13 @@ exports.User = class User {
 };
 
 exports.Google = class Google{
-    getBody(){
-        //request.get('https://www.google.com/logos/doodles/2017/abdul-sattar-edhis-89th-birthday-5757526734798848.3-hp.jpg');
-        //request('http://cramfighter.com/static/img/icons/cramfighter_horizontal_w300.png').pipe(request.put('http://localhost:3000/img.png'));
-        request('http://google.com', function(err, res, body) {  
-            return body;
+    constructor(){
+        console.log("constructor called");
+    }
+    getJSON(callback){        
+        let url = "https://inventory.data.gov/api/action/datastore_search?resource_id=d7c214da-cb07-4437-a6f4-ba89d1d9aca3&limit=5";
+        request(url, function(err, res, body) {              
+            callback(body);            
         });
     }
 };

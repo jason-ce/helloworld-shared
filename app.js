@@ -5,11 +5,13 @@ var api = require('./api.js');
 exports.utilities = utilities;
 exports.api = api;
 
-let google = new api.Google();
-let tmp = google.getBody();
-console.log(tmp);
+// let google = new api.Google();
+// google.getJSON(function(data){
+//     console.log(data);
+// });
 
-//console.log(result);
+
+
 
 // x = [1, 2, 3, 4, 5];
 
