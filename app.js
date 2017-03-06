@@ -1,4 +1,3 @@
-'use strict';
 var utilities = require('./utilities.js');
 var api = require('./api.js');
 
