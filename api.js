@@ -8,11 +8,20 @@ exports.User = class User {
     }
 };
 
-exports.Google = class Google {
+exports.Books = class Books {
         constructor() {
             console.log("constructor called");
         }
-        getJSON(callback, url) {
+        getChapter(callback) {
+            let url = "http://localhost:8000";
+            //let url = "http://localhost:8000/study-schedule/api/v2/overview/?today=2017-03-06";
+            request(url, function (err, res, body) {
+                callback(body);          
+            });
+        }
+        getSection(callback) {
+            //let url = "http://localhost:8000";
+            let url = "http://localhost:8000/study-schedule/api/v2/overview/?today=2017-03-06";
             request(url, function (err, res, body) {
                 callback(body);          
             });
